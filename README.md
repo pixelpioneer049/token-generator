@@ -1,6 +1,6 @@
 # Generate time-based one time passwords in the browser
 
-[Demo](https://totp.accenics.surge.sh/)
+[Demo](https://totp.pixelpioneer.surge.sh/)
 
 This page lets you easily generate a time-based one time password (TOTP) entirely in the web browser in case you ever lose access to your phone.
 
@@ -10,11 +10,11 @@ It uses the excellent [otpauth](https://github.com/hectorm/otpauth) package, dow
 
 ### Private key
 
-You can provide the key in the URL using the URI fragment or a query parameter, for example: `https://totp.accenics.surge.sh/#/KEY` or `https://totp.accenics.surge.sh?key=KEY`
+You can provide the key in the URL using the URI fragment or a query parameter, for example: `https://totp.pixelpioneer.surge.sh/#/KEY` or `https://totp.pixelpioneer.surge.sh?key=KEY`
 
 ### Additional parameters
 
-You can also pass the token digits, period and algorithm using a query string in the URL, for example: `https://totp.accenics.surge.sh/?digits=6&period=60&algorithm=SHA256&key=KEY`
+You can also pass the token digits, period and algorithm using a query string in the URL, for example: `https://totp.pixelpioneer.surge.sh/?digits=6&period=60&algorithm=SHA256&key=KEY`
 
 See [supported hashing algorithms](https://github.com/hectorm/otpauth#supported-hashing-algorithms) for the complete list.
 
